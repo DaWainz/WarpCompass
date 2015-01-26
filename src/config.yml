@@ -1,0 +1,15 @@
+max: 54
+warps:
+- Lobby
+- Rainbow
+data
+  Lobby:
+    p: ~c
+    a: Wannes001
+    i: BOOKSHELF/1/0
+    l: world/0/75/0/140/-3
+  Rainbow:
+    p: ~a
+    a: thedevil014
+    i: WOOL/1/14
+    l: world/10/86/13/180/-5

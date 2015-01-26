@@ -1,0 +1,24 @@
+name: warpcompass
+author: Wannes001
+version: 1.0.0.0
+description: warpy plugin for ButterCraft
+main: me.Wannes001.warpcompass.main
+commands: 
+  warpcompass:
+    description: open the warpcompass menu
+    permission: warpcompass.use
+    aliases: [warp, wc]
+permissions:
+  warpcompass.*:
+    description: access to all commands
+    default: op
+    children:
+    - warpy.create
+  warpcompass.create:
+    default: false
+    description: access to create warps
+    children:
+    - warpy.use
+  warpcompass.use:
+    default: true
+    description: access to use warps
