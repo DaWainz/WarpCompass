@@ -1,4 +1,4 @@
-package me.Wannes001.warpcompass;
+package me.wannes001.warpcompass;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
